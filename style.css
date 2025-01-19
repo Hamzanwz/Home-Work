@@ -1,0 +1,1050 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 242, 242);
+
+}
+
+.navbar {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.nav a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+}
+
+.btn {
+    background-color: rgb(207, 69, 69);
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 4px black;
+
+
+}
+
+.btn:hover {
+    padding: 22px;
+}
+
+.F-sec {
+    height: auto;
+    /* background-color: purple; */
+}
+
+.fm {
+    margin: 0px 70px;
+}
+
+.thunder img {
+    width: 50px;
+}
+
+.developer {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.adoption {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bottom {
+    margin-left: 390px;
+}
+
+.p {
+    display: flex;
+}
+
+
+
+.p img {
+    position: relative;
+    bottom: 145px;
+    left: 25px;
+}
+
+.F-sec button {
+    background-color: rgb(253, 174, 69);
+    position: relative;
+    bottom: 136px;
+    left: 96px;
+}
+
+.box {
+    width: 100%;
+
+}
+
+.back {
+    background-color: black;
+    width: 100%;
+    max-width: 1345px;
+    height: 150px;
+}
+
+.rotate-right {
+    transform: rotate(2deg);
+}
+
+.rotate-left {
+    transform: rotate(-5deg);
+}
+
+.front {
+    position: relative;
+    bottom: 160px;
+    background-color: rgb(253, 174, 69);
+    border: 4px solid black;
+    width: 100%;
+    max-width: 1337px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.front {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.box h3 {
+    margin: 0px 40px;
+    display: inline-block;
+    animation: scroll-text 10s linear infinite;
+}
+
+
+@keyframes scroll-text {
+    from {
+        transform: translateX(-100px);
+    }
+
+    to {
+        transform: translateX(1000px);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .fm {
+        flex-wrap: wrap;
+    }
+
+    .p img {
+        width: 300px;
+    }
+
+    .fm span {
+        font-size: 30px;
+
+    }
+
+    .thunder img {
+        height: 20px;
+    }
+
+    .bottom img {
+        display: flex;
+        width: 90px;
+        position: relative;
+        right: 40%;
+    }
+
+    .bottom {
+        display: flex;
+        width: 90px;
+        position: relative;
+        right: 40%;
+    }
+
+    .p p {
+        font-size: 5px;
+        color: gray;
+
+    }
+    .bbt>.btn{
+        display: none;
+    }
+    .btn{
+        position: relative;
+        top: 40px;
+    }
+    .box{
+        position: relative;
+        bottom: 45px;
+       
+        
+    }
+
+    .box>.back {
+        height: 70%;
+        padding: 10px;
+        display: none;
+    }
+
+    .box>.front {
+        height: 70%;
+        padding: 10px;
+        position: relative;
+        top: 98px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .box>.back {
+        transform: rotateX(0deg);
+        height: 40px;
+        padding: 10px;
+        display: none;
+    }
+
+    .box>.front {
+        transform: rotateX(0deg);
+        height: 40px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:798px) {
+    .F-sec{
+        width: auto;
+    }
+    .fm{
+        height: 671px;
+    }
+    .fm div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    /* .thunder span{
+        margin-left: 149px;
+    } */
+
+    .bbt>.btn {
+        display: none;
+    }
+
+    .fm>.thunder {
+        display: inline-block;
+    }
+
+    .p img {
+        position: relative;
+        top: 50px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 90px;
+
+
+    }
+
+    .box>.back {
+        height: 40px;
+        padding: 10px;
+        display: none;
+    }
+
+    .box>.front {
+        height: 40px;
+        padding: 10px;
+    }
+    .front > h3 {
+        font-size: 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:643px) {
+    .F-sec{
+        height: 818px;
+    }
+    .logo img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        position: absolute;
+        margin-left: 55px;
+    }
+}
+.p p {
+    font-size: 30px;
+    color: gray;
+}
+@media screen and (max-width:598px) {
+    
+    .F-sec{
+        height: 718px;
+    }
+    .p p {
+        font-size: 28px;
+    }
+    .p img{
+        width: 228px;
+        margin-right: 49px;
+    }
+    .btn{
+        position: absolute;
+        margin-left: -79px;
+        margin-top: -31px;
+    }
+    .bottom img {
+        display: flex;
+        width: 90px;
+        position: relative;
+        right: 24px;
+    }
+
+    .bottom {
+        display: flex;
+        width: 90px;
+        position: relative;
+        right: 289px;
+    }
+}
+@media screen and (max-width:450px) {
+    .p p {
+        font-size: 18px;
+    }
+    .p img{
+        width: 210px;
+        margin-right: 49px;
+    }
+   
+}
+@media screen and (max-width:430px){
+  .box>.front{
+        height: 40px;
+        padding: 30px;
+    }
+    .front > h3 {
+        margin: 0px 13px;
+    }
+}
+
+.Inform {
+    height: 120vh;
+    margin-top: 60px;
+    /* background-color: red; */
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+    height: 100vh;
+    background-color: rgb(196, 166, 166);
+    border: 4px solid black;
+    box-shadow: 5px 9px black;
+}
+
+.top-right {
+    position: relative;
+    left: 90.1%;
+    
+}
+
+.side-line {
+
+    width: 5px;
+    height: 130px;
+    background-color: brown;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+
+
+.Launching-area {
+    position: relative;
+    left: 60px;
+    bottom: 125px;
+    width: 500px;
+    font-size: large;
+}
+
+.CTA {
+    position: relative;
+    left: 60%;
+    bottom: 25%;
+}
+
+.side-line-1 {
+    position: relative;
+    bottom: 50%;
+    width: 5px;
+    height: 130px;
+    background-color: rgb(228, 186, 51);
+    border-radius: 8px;
+    margin-left: 40px;
+}
+
+.Launching-area-1 {
+    position: relative;
+    left: 60px;
+    bottom: 70%;
+    width: 500px;
+    font-size: large;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 62.9%;
+}
+
+.btn-L {
+    background-color: rgb(253, 174, 69);
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 4px black;
+    position: relative;
+    bottom: 82%;
+    left: 17%;
+}
+
+.bottom-right {
+    position: relative;
+    bottom: 62.9%;
+    left: 44.9%;
+}
+@media screen and (min-width:1326px) and (max-width:1057){
+    .CTA {
+        position: relative;
+        left: 12%;
+        bottom: 100%;
+        width: 351px;
+    }
+}
+
+@media screen and (max-width:1057px) {
+    .Inform{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container {
+        margin: 40px auto;
+        width: 500px;
+        height: auto;
+    }
+    .Launching-area{
+        font-size: 19px;
+        width: 352px;
+    }
+    .Launching-area-1{
+        margin-top: 20px;
+        font-size: 19px;
+        width: 352px;
+    }
+    .side-line-1{
+        display: inline-block;
+        position: relative;
+        top: 159px;
+        width: 5px;
+        height: 130px;
+        right: 357px;
+    }
+
+    .top-right {
+        position: relative;
+        left: 80.1%;
+        
+    }
+    .CTA {
+        position: relative;
+        left: 12%;
+        bottom: 0%;
+        width: 351px;
+    }
+    .bottom-left{
+        display: none;
+    }
+    .bottom-right{
+        display: none;
+    }
+    .container > button{
+        margin: 20px 0px;
+    }
+    .btn-L {
+        position: relative;
+        left: 36%;
+        
+    }
+}
+@media screen and (max-width:600px){
+    .Inform{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Launching-area{
+        font-size: 19px;
+        width: 352px;
+    }
+    .Launching-area-1{
+        margin-top: 20px;
+        font-size: 19px;
+        width: 352px;
+    }
+    .side-line-1{
+        display: inline-block;
+        position: relative;
+        top: 159px;
+        width: 5px;
+        height: 130px;
+        right: 357px;
+    }
+    .container {
+        margin: 40px auto;
+        width: 500px;
+        height: auto;
+    }
+    .top-right {
+        position: relative;
+        left: 80.1%;
+        
+    }
+    .CTA {
+        position: relative;
+        left: 12%;
+        bottom: 0%;
+        width: 351px;
+    }
+    .bottom-left{
+        display: none;
+    }
+    .bottom-right{
+        display: none;
+    }
+    .container > button{
+        margin: 20px 0px;
+    }
+    .btn-L {
+        position: relative;
+        left: 36%;
+        
+    }
+}
+
+@media screen and (max-width:522px){
+    .side-line-1{
+        display: inline-block;
+        position: relative;
+        top: 154px;
+        width: 5px;
+        height: 130px;
+        right: 252px;
+    }
+}
+
+@media screen and (max-width:511px){
+    .Inform{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Launching-area{
+        font-size: 14px;
+        width: 252px;
+        margin-top: 30px;
+    }
+    .Launching-area-1{
+        margin-top: 20px;
+        font-size: 14px;
+        width: 252px;
+    }
+    .side-line{
+        position: relative;
+        top: 35px;
+        width: 5px;
+        height: 130px;
+    }
+    .side-line-1{
+        display: inline-block;
+        position: relative;
+        top: 159px;
+        width: 5px;
+        height: 130px;
+        right: 357px;
+    }
+    .container {
+        margin: 40px;
+        width: 350px;
+        height: auto;
+    }
+    .top-right {
+        position: relative;
+        left: 80.1%;
+        
+    }
+    .CTA {
+        position: relative;
+        left: 12%;
+        bottom: 0%;
+        width: 251px;
+    }
+    .bottom-left{
+        display: none;
+    }
+    .bottom-right{
+        display: none;
+    }
+    .container > button{
+        margin: 20px 0px;
+    }
+    .btn-L {
+        position: relative;
+        left: 36%;
+        
+    }
+    .top-right{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:362px){
+    .Inform{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Launching-area{
+        font-size: 14px;
+        width: 200px;
+        margin-top: 30px;
+    }
+    .Launching-area-1{
+        margin-top: 20px;
+        font-size: 14px;
+        width: 200px;
+    }
+    .side-line{
+        position: relative;
+        top: 35px;
+        width: 5px;
+        height: 130px;
+    }
+    .side-line-1{
+        display: inline-block;
+        position: relative;
+        top: 159px;
+        width: 5px;
+        height: 130px;
+        right: 257px;
+    }
+    .container {
+        margin: 40px;
+        width: 310px;
+        height: auto;
+    }
+    .top-right {
+        position: relative;
+        left: 80.1%;
+        
+    }
+    .CTA {
+        position: relative;
+        left: 7%;
+        bottom: 60px;
+        width: 251px;
+    }
+    .bottom-left{
+        display: none;
+    }
+    .bottom-right{
+        display: none;
+    }
+    .container > button{
+        margin: 20px 0px;
+    }
+    .btn-L {
+        position: relative;
+        left: 26%;
+        
+    }
+    .top-right{
+        display: none;
+    }
+}
+.include {
+    display: flex;
+    align-items: center;
+    margin-left: 165px;
+}
+
+.star {
+    width: 50px;
+    height: 50px;
+}
+
+.include h1 {
+    font-size: 46px;
+    margin-left: 20px;
+}
+
+.arrow {
+    margin-left: 50px;
+}
+
+.flex {
+    display: flex;
+    margin-left: 118px;
+}
+
+.hand {
+    position: relative;
+    top: 276px;
+    height: 100px;
+    right: 20px;
+}
+
+ul li {
+    background-color: rgb(253, 174, 69);
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 4px black;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.Stat {
+    position: relative;
+    left: 100px;
+    bottom: 77px;
+}
+
+.trusted {
+    height: 66vh;
+}
+
+.container-T {
+    width: 1227px;
+    height: 300px;
+    background-color: rgb(23, 23, 70);
+    color: white;
+    border: 3px solid black;
+    box-shadow: 7px 7px black;
+    margin: 60px;
+}
+
+.container-T h1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.u-t-line {
+    width: 220px;
+    height: 3px;
+    margin: auto;
+    background-color: rgb(170, 38, 38);
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.container-T p {
+    margin: 20px 50px 0px 50px;
+    display: flex;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.container-T img {
+    position: relative;
+    left: 43%;
+    top: 24%;
+}
+
+
+.u-t-line-1 {
+    width: 320px;
+    height: 3px;
+    margin: auto;
+    background-color: rgb(240, 182, 57);
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.container-P {
+    width: 1227px;
+    height: 500px;
+    background-color: rgb(206, 184, 199);
+    color: white;
+    border: 3px solid black;
+    box-shadow: 7px 7px black;
+    margin: 60px;
+}
+
+.container-P h1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.logos img {
+    width: 200px;
+    margin: 40px 40px;
+}
+
+.events {
+    height: 100%;
+    background-color: black;
+}
+
+.container-E h1 {
+    color: rgb(226, 167, 39);
+    font-size: 40px;
+    font-weight: bold;
+    display: inline;
+    margin-left: 50px;
+}
+
+.camera {
+    position: relative;
+    top: 30px;
+}
+
+.u-t-line-3 {
+    width: 500px;
+    margin-top: 40px;
+    border: 1px dashed rgb(240, 182, 57);
+    margin-left: 50px;
+}
+
+.media-E {
+    width: 92%;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    width: 700px;
+}
+
+.inv-F {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    width: 500px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.content h1 span {
+    width: 500px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(202, 53, 78);
+}
+
+.content p {
+    width: 350px;
+    margin-top: 30px;
+    color: gray;
+    font-size: 19px;
+}
+
+.inv-F img {
+    margin-top: 50px;
+}
+
+.btn2 {
+    background-color: rgb(207, 69, 69);
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 4px black;
+    margin-left: 110px;
+    margin-bottom: 90px;
+}
+
+.btn2:hover {
+    padding: 20px;
+}
+
+.faq {
+    height: 120vh;
+    margin-top: 30px;
+
+}
+
+.faq-h {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.faq-h h1 {
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.u-t-line-f {
+    width: 220px;
+    height: 4px;
+    margin: auto;
+    background-color: rgb(240, 182, 57);
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.qus {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: 40px auto 0px;
+    background-color: rgb(240, 182, 57);
+    border: 3px solid black;
+    box-shadow: 4px 5px black;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.f-footer {
+    height: 60vh;
+    background-color: black;
+    color: white;
+}
+
+.f-f {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+}
+
+.logo p {
+    color: gray;
+    width: 220px;
+}
+
+.logo a img {
+    width: 50px;
+    margin-top: 50px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links h2 {
+    text-decoration: underline;
+}
+
+.links a {
+    margin: 15px;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.join h2 {
+    color: rgb(240, 182, 57);
+}
+
+.join p {
+    color: gray;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.join input {
+    color: gray;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 0.1;
+    border: none;
+}
+
+.join button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 182, 57);
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 550;
+
+}
+
+.f-footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
