@@ -185,18 +185,21 @@ body {
         color: gray;
 
     }
-    .bbt>.btn{
+
+    .bbt>.btn {
         display: none;
     }
-    .btn{
+
+    .btn {
         position: relative;
         top: 40px;
     }
-    .box{
+
+    .box {
         position: relative;
         bottom: 45px;
-       
-        
+
+
     }
 
     .box>.back {
@@ -213,6 +216,7 @@ body {
         width: 100%;
         box-sizing: border-box;
     }
+
     .box>.back {
         transform: rotateX(0deg);
         height: 40px;
@@ -229,12 +233,14 @@ body {
 }
 
 @media screen and (max-width:798px) {
-    .F-sec{
+    .F-sec {
         width: auto;
     }
-    .fm{
+
+    .fm {
         height: 671px;
     }
+
     .fm div {
         display: flex;
         flex-direction: column;
@@ -242,6 +248,7 @@ body {
         align-items: center;
         text-align: center;
     }
+
     /* .thunder span{
         margin-left: 149px;
     } */
@@ -279,49 +286,58 @@ body {
         height: 40px;
         padding: 10px;
     }
-    .front > h3 {
+
+    .front>h3 {
         font-size: 10px;
     }
-    
+
 }
 
 
 
 @media screen and (max-width:643px) {
-    .F-sec{
+    .F-sec {
         height: 818px;
     }
+
     .logo img {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .btn{
+
+    .btn {
         position: absolute;
         margin-left: 55px;
     }
 }
+
 .p p {
     font-size: 30px;
     color: gray;
 }
+
 @media screen and (max-width:598px) {
-    
-    .F-sec{
+
+    .F-sec {
         height: 718px;
     }
+
     .p p {
         font-size: 28px;
     }
-    .p img{
+
+    .p img {
         width: 228px;
         margin-right: 49px;
     }
-    .btn{
+
+    .btn {
         position: absolute;
         margin-left: -79px;
         margin-top: -31px;
     }
+
     .bottom img {
         display: flex;
         width: 90px;
@@ -336,23 +352,31 @@ body {
         right: 289px;
     }
 }
+
 @media screen and (max-width:450px) {
     .p p {
         font-size: 18px;
     }
-    .p img{
+
+    .p img {
         width: 210px;
         margin-right: 49px;
     }
-   
+
 }
-@media screen and (max-width:430px){
-  .box>.front{
+
+@media screen and (max-width:430px) {
+    .box>.front {
         height: 40px;
         padding: 30px;
     }
-    .front > h3 {
+
+    .front>h3 {
         margin: 0px 13px;
+    }
+
+    .nav a {
+        margin: 0px 9px;
     }
 }
 
@@ -374,7 +398,7 @@ body {
 .top-right {
     position: relative;
     left: 90.1%;
-    
+
 }
 
 .side-line {
@@ -442,41 +466,103 @@ body {
     bottom: 62.9%;
     left: 44.9%;
 }
-@media screen and (min-width:1326px) and (max-width:1057){
+
+@media screen and (max-width:1326px) {
     .CTA {
         position: relative;
-        left: 12%;
-        bottom: 100%;
-        width: 351px;
+        left: 60%;
+        bottom: 71%;
+        width: 298px;
     }
+
+    .Launching-area {
+        position: relative;
+        bottom: 180px;
+        font-size: 15px;
+        width: 400px;
+        margin-top: 15px;
+
+    }
+
+    .side-line {
+        position: relative;
+        width: 5px;
+        height: 96px;
+        left: 3px;
+        bottom: 69px;
+        margin-top: 19px;
+    }
+
+    .Launching-area-1 {
+        position: relative;
+        bottom: 372px;
+        font-size: 15px;
+        width: 400px;
+
+    }
+
+    .side-line-1 {
+        display: inline-block;
+        position: relative;
+        width: 5px;
+        height: 96px;
+        right: 299px;
+        bottom: 269px;
+    }
+
+    .bottom-left {
+        position: relative;
+        bottom: 124.1%;
+        width: 72px;
+    }
+
+    .bottom-right {
+        position: relative;
+        bottom: 124.9%;
+        left: 67.2%;
+        width: 109px;
+    }
+
+    .btn-L {
+        position: relative;
+        bottom: 135%;
+        left: 31%;
+    }
+
+
 }
 
 @media screen and (max-width:1057px) {
-    .Inform{
+    .Inform {
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     .container {
         margin: 40px auto;
         width: 500px;
         height: auto;
     }
-    .Launching-area{
+
+    .Launching-area {
         font-size: 19px;
         width: 352px;
     }
-    .Launching-area-1{
-        margin-top: 20px;
+
+    .Launching-area-1 {
+        position: relative;
         font-size: 19px;
         width: 352px;
+        top: 7px;
     }
-    .side-line-1{
+
+    .side-line-1 {
         display: inline-block;
         position: relative;
-        top: 159px;
+        top: 143px;
         width: 5px;
         height: 130px;
         right: 357px;
@@ -485,47 +571,56 @@ body {
     .top-right {
         position: relative;
         left: 80.1%;
-        
+
     }
+
     .CTA {
         position: relative;
         left: 12%;
-        bottom: 0%;
+        top: -59px;
         width: 351px;
     }
-    .bottom-left{
+
+    .bottom-left {
         display: none;
     }
-    .bottom-right{
+
+    .bottom-right {
         display: none;
     }
-    .container > button{
-        margin: 20px 0px;
+
+    .container>button {
+        margin: 20px 0px 10px 0px;
     }
+
     .btn-L {
         position: relative;
         left: 36%;
-        
+
     }
 }
-@media screen and (max-width:600px){
-    .Inform{
+
+@media screen and (max-width:600px) {
+    .Inform {
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .Launching-area{
+
+    .Launching-area {
         font-size: 19px;
         width: 352px;
     }
-    .Launching-area-1{
+
+    .Launching-area-1 {
         margin-top: 20px;
         font-size: 19px;
         width: 352px;
     }
-    .side-line-1{
+
+    .side-line-1 {
         display: inline-block;
         position: relative;
         top: 159px;
@@ -533,143 +628,167 @@ body {
         height: 130px;
         right: 357px;
     }
+
     .container {
         margin: 40px auto;
         width: 500px;
         height: auto;
     }
+
     .top-right {
         position: relative;
         left: 80.1%;
-        
+
     }
+
     .CTA {
         position: relative;
         left: 12%;
         bottom: 0%;
         width: 351px;
     }
-    .bottom-left{
+
+    .bottom-left {
         display: none;
     }
-    .bottom-right{
+
+    .bottom-right {
         display: none;
     }
-    .container > button{
+
+    .container>button {
         margin: 20px 0px;
     }
+
     .btn-L {
         position: relative;
         left: 36%;
-        
+
     }
 }
 
-@media screen and (max-width:522px){
-    .side-line-1{
+@media screen and (max-width:522px) {
+    .side-line-1 {
         display: inline-block;
         position: relative;
         top: 154px;
         width: 5px;
         height: 130px;
-        right: 252px;
+        right: 349px;
     }
 }
 
-@media screen and (max-width:511px){
-    .Inform{
+@media screen and (max-width:511px) {
+    .Inform {
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .Launching-area{
+
+    .Launching-area {
         font-size: 14px;
         width: 252px;
-        margin-top: 30px;
+        margin-top: 86px;
     }
-    .Launching-area-1{
+
+    .Launching-area-1 {
         margin-top: 20px;
         font-size: 14px;
         width: 252px;
     }
-    .side-line{
+
+    .side-line {
         position: relative;
         top: 35px;
         width: 5px;
         height: 130px;
     }
-    .side-line-1{
+
+    .side-line-1 {
         display: inline-block;
         position: relative;
         top: 159px;
         width: 5px;
         height: 130px;
-        right: 357px;
+        right: 253px;
     }
+
     .container {
         margin: 40px;
         width: 350px;
         height: auto;
     }
+
     .top-right {
         position: relative;
         left: 80.1%;
-        
+
     }
+
     .CTA {
         position: relative;
         left: 12%;
         bottom: 0%;
         width: 251px;
     }
-    .bottom-left{
+
+    .bottom-left {
         display: none;
     }
-    .bottom-right{
+
+    .bottom-right {
         display: none;
     }
-    .container > button{
+
+    .container>button {
         margin: 20px 0px;
     }
+
     .btn-L {
         position: relative;
         left: 36%;
-        
+
     }
-    .top-right{
+
+    .top-right {
         display: none;
     }
 }
 
 
 
-@media screen and (max-width:362px){
-    .Inform{
+@media screen and (max-width:362px) {
+    .Inform {
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .Launching-area{
+
+    .Launching-area p {
         font-size: 14px;
         width: 200px;
-        margin-top: 30px;
+        position: relative;
+        top: 0px;
     }
-    .Launching-area-1{
+
+    .Launching-area-1 {
         margin-top: 20px;
         font-size: 14px;
         width: 200px;
     }
-    .side-line{
+
+    .side-line {
         position: relative;
         top: 35px;
         width: 5px;
         height: 130px;
     }
-    .side-line-1{
+
+    .side-line-1 {
         display: inline-block;
         position: relative;
         top: 159px;
@@ -677,40 +796,50 @@ body {
         height: 130px;
         right: 257px;
     }
+
     .container {
         margin: 40px;
         width: 310px;
         height: auto;
     }
+
     .top-right {
         position: relative;
         left: 80.1%;
-        
+
     }
+
     .CTA {
         position: relative;
         left: 7%;
         bottom: 60px;
         width: 251px;
     }
-    .bottom-left{
+
+    .bottom-left {
         display: none;
     }
-    .bottom-right{
+
+    .bottom-right {
         display: none;
     }
-    .container > button{
+
+    .container>button {
         margin: 20px 0px;
     }
+
     .btn-L {
         position: relative;
         left: 26%;
-        
+
     }
-    .top-right{
+
+    .top-right {
         display: none;
     }
 }
+
+
 .include {
     display: flex;
     align-items: center;
@@ -761,6 +890,167 @@ ul li {
     bottom: 77px;
 }
 
+@media screen and (max-width:1326px) {
+    .include {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .flex {
+        /* flex-direction: column; */
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    ul li {
+        width: 500px;
+    }
+
+    .Stat {
+        position: relative;
+        left: 21px;
+        width: 408px;
+        bottom: 93px;
+    }
+
+    .arrow {
+        position: relative;
+        top: 51px;
+        right: 141px;
+        margin: 0px;
+    }
+
+    .hand {
+        display: none;
+    }
+}
+@media screen and (max-width:1057px) {
+    .include {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .flex {
+        flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    ul li {
+        width: 500px;
+    }
+
+    .Stat {
+        position: relative;
+        left: 5px;
+        width: 408px;
+        bottom: 0px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .hand {
+        display: none;
+    }
+}
+
+@media screen and (max-width:573px) {
+    .include {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .flex {
+        flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .include h1 {
+        font-size: 31px;
+        margin-left: 7px;
+    }
+
+    ul li {
+        width: 300px;
+    }
+
+    .Stat {
+        position: relative;
+        left: 5px;
+        width: 289px;
+        bottom: 0px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .hand {
+        display: none;
+    }
+    .star {
+        width: 35px;
+        height: 49px;
+    }
+}
+
+@media screen and (max-width:381px) {
+    .include {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .flex {
+        flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .include h1 {
+        font-size: 21px;
+        margin-left: 4px;
+    }
+
+    ul li {
+        width: 200px;
+    }
+
+    .Stat {
+        position: relative;
+        left: 5px;
+        width: 230px;
+        bottom: 0px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .hand {
+        display: none;
+    }
+    .star {
+        width: 25px;
+        height: 39px;
+    }
+}
 .trusted {
     height: 66vh;
 }
